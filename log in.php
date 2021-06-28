@@ -39,7 +39,7 @@ try {
     $_SESSION['user_email'] = $email;
 
     // Redirect to profile page
-    echo "Вход выполнен";
+    echo "Вход выполнен. Пользователь: ".$email;
     //header('HTTP/1.1 302 Redirect');
     //header('Location: /user-profile.php');
 } catch (Exception $e) {
