@@ -1,3 +1,3 @@
 <?php
-    echo "Howdy, partner";
+    echo "Howdy, pal";
     ?>
