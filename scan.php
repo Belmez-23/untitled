@@ -1,7 +1,7 @@
 <?php
 // 1. Use Composer autoloader
-require '/home/a1/vendor/autoload.php';
-//не находит такой файл в директории?
+require 'vendor/autoload.php';
+//вендор скопировать в директорию проекта; использовать пространство имён
 // 2. Instantiate Guzzle HTTP client
 $client = new \GuzzleHttp\Client();
 
