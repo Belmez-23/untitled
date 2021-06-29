@@ -1,8 +1,6 @@
 {
     "require": {
-        "league/flysystem": "^2.1",
         "league/csv": "^9.7",
-        "guzzlehttp/guzzle": "^7.3",
-        "ext-pdo": "*"
+        "guzzlehttp/guzzle": "^7.3"
     }
 }
