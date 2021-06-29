@@ -19,7 +19,7 @@ try {
 
     $currentHashAlgorithm = PASSWORD_DEFAULT;
     $currentHashOptions = array('cost' => 15);
-    $passwordNeedsRehash = password_needs_rehash(c
+    $passwordNeedsRehash = password_needs_rehash(
         $user->password_hash,
         $currentHashAlgorithm,
         $currentHashOptions
