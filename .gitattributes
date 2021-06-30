@@ -1,0 +1,6 @@
+*.pbxproj binary
+*.docx diff=word
+*.png diff=exif
+*.txt ident
+date*.txt filter=dater
+git/ export-ignore
