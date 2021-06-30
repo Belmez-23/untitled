@@ -4,3 +4,5 @@
 *.txt ident
 date*.txt filter=dater
 git/ export-ignore
+modern-php-master/ export-ignore
+vendor/ export-ignore
