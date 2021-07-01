@@ -4,6 +4,7 @@ echo "<br>";
 echo "Примерчики:<br>";
 echo "<a href='register.html'>Passwords</a><br>";
 echo "<a href='DataTime.php'>DateTime</a><br>";
+echo "<a href='cook.php'>Cookie</a><br>";
 phpinfo();
 ?>
 
