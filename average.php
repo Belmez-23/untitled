@@ -1,10 +1,6 @@
 <?php
-function average(...$mass){
-/*    if($mass != []) {
-        return array_sum($mass) / count($mass);
-    }
-    else return 'null'; */
-
+function average(...$mass)
+{
     return $mass != []? array_sum($mass) / count($mass): 'null';
 }
 

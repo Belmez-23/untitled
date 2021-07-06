@@ -8,8 +8,7 @@ function addPrefix($arr, $pre)
 }
 
 $names = ['john', 'smith', 'karl'];
-
 $newNames = addPrefix($names, 'Mr');
 print_r($newNames);
-// => ['Mr john', 'Mr smith', 'Mr karl'];
+
 print_r(addPrefix(['Kefir', 'Fish', 'Rock', 'Beer', 'Cheese'], 'St'));

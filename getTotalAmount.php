@@ -1,5 +1,6 @@
 <?php
-function getTotalAmount($money, $ex){
+function getTotalAmount($money, $ex)
+{
     $total = 0;
     foreach ($money as $m){
         if(str_starts_with($m, $ex)){// или str_contains

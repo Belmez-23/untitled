@@ -1,12 +1,7 @@
 <?php
-$array = [15, 10, 3, 4];
-$num = 10;
-$min = 0;
-
-for($m = 0; $m < count($array); $m++){
-    if(abs($array[$m] - $num) < abs($array[$min] - $num)){
-        $min = $m;
-        var_dump($array[$m] );
-    }
+if ($argc != 2) {
+    echo "Использование: php hello.php [name].\n";
+    exit(1);
 }
-echo $min;
+$name = $argv[1];
+echo "Привет, $name\n";

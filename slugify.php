@@ -1,5 +1,6 @@
 <?php
-function slugify($line){
+function slugify($line)
+{
     $line = trim($line, ' '); //убрать пробелы в начале и конце
     $line = mb_strtolower($line); //нижний регистр в т.ч. кириллица
     $line = preg_replace('/\s+/', '-', $line) ; //замена пробелов на дефис

@@ -1,6 +1,7 @@
 <?php
-function sayPrimeOrNot($x){
-    for ($i = 2; $i< ($x-1) ; $i++) {
+function sayPrimeOrNot($x)
+{
+    for ($i = 2; $i < ($x - 1) ; $i++) {
         if ($x % $i == 0) {
             return 'no';
         }

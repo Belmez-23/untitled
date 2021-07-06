@@ -1,5 +1,6 @@
 <?php
-function getIntersectionOfSortedArray($first, $second){
+function getIntersectionOfSortedArray($first, $second)
+{
     //(array_intersect($first, $second))
     $inter = [];
 

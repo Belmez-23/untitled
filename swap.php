@@ -1,7 +1,7 @@
 <?php
 function swap($arr, $mid)
 {
-    if(array_key_exists($mid-1, $arr) && array_key_exists($mid+1, $arr)) {
+    if(array_key_exists($mid - 1, $arr) && array_key_exists($mid + 1, $arr)) {
         [$arr[$mid - 1], $arr[$mid + 1]] = [$arr[$mid + 1], $arr[$mid - 1]];
     }
     return $arr;

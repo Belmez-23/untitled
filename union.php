@@ -1,5 +1,6 @@
 <?php
-function union(...$arrays){
+function union(...$arrays)
+{
     $temp = [];
     $t = 0;
     foreach ($arrays as $array) {

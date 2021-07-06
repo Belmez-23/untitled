@@ -1,5 +1,6 @@
 <?php
-function findIndexOfNearest($array, $num){
+function findIndexOfNearest($array, $num)
+{
     if($array != []) {
             $min = 0;
             for($m = 0; $m < count($array); $m++){
@@ -9,7 +10,9 @@ function findIndexOfNearest($array, $num){
             }
             return $min;
  }
-    else return 'null';
+    else {
+        return 'null';
+    }
 }
 
 echo findIndexOfNearest([], 0);
